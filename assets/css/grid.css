@@ -1,0 +1,60 @@
+body{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+    text-transform: uppercase;
+    color:#28262d;
+    letter-spacing: 6px;
+    font-size: 3px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .jumbotron{
+      height:50px ;
+      width:100%;
+  }
+  .fixed-bottom{
+      background-color: aliceblue;
+    height:55px;
+    padding-top:15px;
+  }
